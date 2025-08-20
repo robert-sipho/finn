@@ -129,7 +129,7 @@ cfg = build.DataflowBuildConfig(
     folding_config_file="folding_config.json",
     fpga_part="xczu3eg-sbva484-1-e",
     shell_flow_type=build_cfg.ShellFlowType.VIVADO_ZYNQ,
-    stitched_ip_gen_dcp=False,
+    stitched_ip_gen_dcp=True,
     generate_outputs=[
         build_cfg.DataflowOutputType.STITCHED_IP,
     ],

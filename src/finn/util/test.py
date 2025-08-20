@@ -58,6 +58,7 @@ example_map = {
     ("TFC", 1, 1): bnn_pynq.tfc_1w1a,
     ("TFC", 1, 2): bnn_pynq.tfc_1w2a,
     ("TFC", 2, 2): bnn_pynq.tfc_2w2a,
+    ("cuav",2,2): bnn_pynq.cuav,
     ("mobilenet", 4, 4): imagenet_classification.quant_mobilenet_v1_4b,
 }
 
